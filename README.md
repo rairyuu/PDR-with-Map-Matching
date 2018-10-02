@@ -8,7 +8,5 @@ Detailed document is coming soon.
 If you have any questions, please contact:
 
 luchuanhua@limu.ait.kyushu-u.ac.jp
-
 or
-
 845485344@qq.com
