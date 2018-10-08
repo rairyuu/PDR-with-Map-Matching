@@ -3,13 +3,6 @@ A solution for indoor positioning. Based on PDR. With map matching. Using chest 
 
 Got 1st place in IPIN 2017 competition Track 2. Got 2nd place in IPIN 2018 competition Track 2 (0.2m worse than 1st).
 
-Detailed document is coming soon.
-
-If you have any questions, please contact:
-luchuanhua@limu.ait.kyushu-u.ac.jp
-or
-845485344@qq.com
-
 # System requirement
 Hardware:
 NGIMU
@@ -51,4 +44,15 @@ Other parameters:
 ----scale,[pixel to meter]
 
 To save the map, press "0", then press "1".
+The produced map consists of "core.txt", "node.txt", "link.txt", "arrow.txt", "polygon.txt" and image files.
+Copy these file to "RealTime-MapMatching-MultiFloor/map/".
 
+"RealTime-MapMatching-MultiFloor" is our proposed system.
+After running, the data is logged in "log/".
+
+# Future work
+Detailed document is coming soon.
+If you have any questions, please contact:
+luchuanhua@limu.ait.kyushu-u.ac.jp
+or
+845485344@qq.com
