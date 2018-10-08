@@ -11,3 +11,21 @@ or
 845485344@qq.com
 
 # System requirement
+Hardware:
+
+NGIMU
+http://x-io.co.uk/ngimu/
+
+
+Environment:
+
+Python 2.7.15
+
+scipy 1.0.0
+
+numpy 1.14.0
+
+OpenCV 2.4.10
+
+pyOSC 0.3.5b5294
+https://pypi.org/project/pyOSC/
