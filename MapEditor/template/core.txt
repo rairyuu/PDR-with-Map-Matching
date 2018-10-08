@@ -1,4 +1,4 @@
-byProgram
+byUser
 floor,4,0.jpg,1.jpg,2.jpg,3.jpg
 height,4.5
 start,1
