@@ -30,4 +30,25 @@ Environment:
 https://pypi.org/project/pyOSC/
 
 # A brief introduction
-[MapEditor] is 
+"MapEditor" is one of our tool program.
+It helps to produce the input of "RealTime-MapMatching-MultiFloor".
+To run it, you need to prepare one "core.txt" file, which contains several initial parameters of the map.
+There is a template, "template/core.txt".
+"core.txt" should begin with header "byUser".
+Another header "byProgram" could only be used by the program.
+Other parameters:
+
+----floor,[floor number],[image 0]...
+
+----height,[floor height]
+
+----start,[start floor(from 0)]
+
+----start_point,[start x],[start y]
+
+----dir,[direction in rad]
+
+----scale,[pixel to meter]
+
+To save the map, press "0", then press "1".
+
