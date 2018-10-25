@@ -149,34 +149,6 @@ class Worker(multiprocessing.Process):
 
 		return displacement
 
-	def StepDisplacementSingleIntegration(self, _data, _type=0):
-		displacement = Vector3()
-
-		delta_time = self.delta_time
-
-		data_length = len(_data) // 4
-
-		for i in range(data_length):
-			displacement.x += _data[i * 4] * delta_time
-			displacement.y += _data[i * 4 + 1] * delta_time
-
-		displacement.x *= -self.scale_single_integration
-		displacement.y *= -self.scale_single_integration
-		displacement.z = _data[-1]
-
-		if _type == -1:
-			displacement.x *= -0.5
-			displacement.y *= -0.5
-		elif _type == -2:
-			displacement.x *= 0.5
-			displacement.y *= 0.5
-
-		self.map_matching.Update(displacement.x, displacement.y, displacement.z)
-
-		self.step_number += 1
-
-		return displacement
-
 	def StepDetection(self):
 		self.reading_data = True
 		if self.modifying_data:
