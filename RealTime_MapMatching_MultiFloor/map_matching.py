@@ -412,6 +412,14 @@ class MapMatching(object):
 
 		if self.current_floor != self.last_floor:
 			self.floor_changed = True
+			
+			temp_particles = self.particles
+			self.particles = []
+			for temp_particle in temp_particles:
+				temp_x = int(temp_particle.x)
+				temp_y = int(temp_particle.y)
+				if (temp_x > -1) and (temp_x < self.map_width) and (temp_y > -1) and (temp_y < self.map_height) and (self.polygon_zone[self.current_floor][temp_y][temp_x] != 0):
+					self.particles.append(temp_particle)
 
 		return
 
