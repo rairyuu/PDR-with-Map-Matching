@@ -1,3 +1,7 @@
+This program is the off-line version of our system.
+By running it, you can get a video file "video.avi", which is same with "../IPIN2018.avi".
+This program requires XVID codec.
+
 To run this program, "sensors.csv" is required.
 You can download it from:
 https://drive.google.com/file/d/1UtLo8mLvjU7RzgAWjEnJW9adgcJJAlYK
