@@ -191,6 +191,14 @@ class Worker(multiprocessing.Process):
 
 		data_length = len(data_process) // 7
 		if data_length < 800:
+			# BUG in real time mode, should return data_process to self.sensor_data_process here
+			# Fixed
+			self.reading_data = True
+			if self.modifying_data:
+				self.reading_data = True
+			data_process.extend(self.sensor_data_process)
+			self.sensor_data_process = data_process
+			self.reading_data = False
 			return
 		current_pose = self.current_pose
 		delta_time = self.delta_time
