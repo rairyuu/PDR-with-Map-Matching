@@ -9,7 +9,7 @@ node,node.txt
 link,link.txt
 arrow,arrow.txt
 polygon,polygon.txt
-nodeID,862
+nodeID,864
 linkID,577
 arrowID,15
-polygonID,69
+polygonID,70
