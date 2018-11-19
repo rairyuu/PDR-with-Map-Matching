@@ -35,10 +35,12 @@ Support Python 3 now, Environment:
 --------python-osc 1.7.0
 
 We suggest you to install from Anaconda, you can run
+
 '''python
 conda create -n py36 python=3.6 scipy=1.0.0 numpy=1.14.0 opencv
 pip install python-osc
 '''
+
 to create the environment easily.
 
 # A brief introduction
