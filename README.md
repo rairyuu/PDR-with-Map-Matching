@@ -22,6 +22,25 @@ Environment:
 --------pyOSC 0.3.5b5294
 https://pypi.org/project/pyOSC/
 
+Support Python 3 now, Environment:
+
+----Python 3.6
+
+--------scipy 1.0.0
+
+--------numpy 1.14.0
+
+--------OpenCV 3.4.2
+
+--------python-osc 1.7.0
+
+We suggest you to install from Anaconda, you can run
+'''python
+conda create -n py36 python=3.6 scipy=1.0.0 numpy=1.14.0 opencv
+pip install python-osc
+'''
+to create the environment easily.
+
 # A brief introduction
 "MapEditor" is one of our tool program.
 It helps to produce the input of "RealTime-MapMatching-MultiFloor".
