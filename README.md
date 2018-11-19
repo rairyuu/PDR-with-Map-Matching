@@ -24,7 +24,7 @@ https://pypi.org/project/pyOSC/
 
 Support Python 3 now, Environment:
 
-----Python 3.6
+----Python 3.6.7
 
 --------scipy 1.0.0
 
