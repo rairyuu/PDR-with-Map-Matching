@@ -1,0 +1,7 @@
+byUser
+floor,4,0.jpg,1.jpg,2.jpg,3.jpg
+height,4.5
+start,1
+start_point,0.0,0.0
+dir,-0.258254399763
+scale,0.33167
