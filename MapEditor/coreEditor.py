@@ -198,8 +198,8 @@ class MapEditor(object):
 		]
 		self.polygons = {}
 		self.polygonColor = [
-			(155, 223, 255),
-			(191, 191, 191)
+			(191, 191, 191),
+			(155, 223, 255)
 		]
 
 		if self.createByProgram:
