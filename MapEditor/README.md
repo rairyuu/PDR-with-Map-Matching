@@ -1,6 +1,7 @@
 # KEY MAP
 ```
-key                       action
+KEY                       ACTION
+
 LEFT_MOUSE_DOWN           select/create a point
 w                         move selected point up
 s                         move selected point down
@@ -25,5 +26,7 @@ ESCAPE                    cancel selection
 ```
 
 To set start point, press "q"/"Q", then press "e"/"E" in 0.2s.
+
 To leave without saving, press "1", then press "0" in 0.2s.
+
 To save and leave, press "0", then press "1" in 0.2s.
