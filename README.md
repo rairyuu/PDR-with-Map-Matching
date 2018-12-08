@@ -60,7 +60,7 @@ Other parameters:
 
 ----start_point,[start x],[start y]
 
-----dir,[direction in rad]
+----dir,[initial heading(in rad)]
 
 ----scale,[pixel to meter]
 
