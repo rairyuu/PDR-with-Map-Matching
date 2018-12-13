@@ -71,6 +71,14 @@ Copy these file to "RealTime-MapMatching-MultiFloor/map/".
 "RealTime-MapMatching-MultiFloor" is our proposed system.
 After running, the data is logged in "log/".
 
+# Computational efficiency
+In our system, the part which takes most time for processing is, detecting if the particles hit the walls.
+In "map_matching.py", I did some optimization, but this is not enough, especially for huge maps with thousands walls.
+There are several methods, which can solve this problem (turning this process to O(1)), but I did not implement them in my code.
+For example, some grid-based methods.
+After the pre-processing (may take some time), the further process will become extremely fast.
+If you want to use particle filter based map matching, and there are many walls in the map, I strongly recommand you to implement these methods.
+
 # Future work
 Detailed document is coming soon.
 If you have any questions, please contact:
