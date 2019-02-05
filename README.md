@@ -3,6 +3,21 @@ A solution for indoor positioning. Based on PDR. With map matching. Using chest 
 
 Got 1st place in IPIN 2017 competition Track 2. Got 2nd place in IPIN 2018 competition Track 2 (0.2m worse than 1st).
 
+Our paper has been published in MDPI Sensors!
+
+```
+@article{lu2019indoor,
+  title={Indoor Positioning System Based on Chest-Mounted IMU},
+  author={Lu, Chuanhua and Uchiyama, Hideaki and Thomas, Diego and Shimada, Atsushi and Taniguchi, Rin-ichiro},
+  journal={Sensors},
+  volume={19},
+  number={2},
+  pages={420},
+  year={2019},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+```
+
 # System requirement
 Hardware:
 NGIMU
